@@ -3,7 +3,7 @@ return {
 	admin = 147237496,
 	log_chat = -1001057801239,
 	channel = '@SoftTG_TEAM', --channel username with the '@'
-	languages = 'languages.lua',
+	languages = 'languages.lua','langFA',
 	plugins = {
 		'onmessage.lua', --THIS HAVE TO BE THE FIRST: IF AN USER IS SPAMMING/IS BLOCKED, THE BOT WON'T GO THROUGH PLUGINS
 		'admin.lua',
@@ -34,7 +34,8 @@ return {
 		'en',
 		'it',
 		'es',
-		'br'
+		'br',
+		'fa',
 		--more to come
 	},
 	chat_data = {
